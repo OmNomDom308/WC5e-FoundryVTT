@@ -6,23 +6,23 @@
   "version": "0.1.0", 
   "esmodules": [
     "scripts/wc5e.js"
-  ].
+  ]
   "styles": [
     "styles/wc5e.css"
-  ]. 
+  ] 
   "dependencies": [
     { 
       "name": "dnd5e",
       "type": "system"
     }
-  ]. 
+  ] 
   "languages": [ 
     {
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    }.
-  ].
+    }
+  ]
   "packs": [
     {
       "name": "classes",
@@ -31,7 +31,7 @@
       "private": false,
       "entity": "Item",
       "system": "dnd5e"
-    }.
+    }
         {
       "name": "races",
       "label": "Races", 
@@ -40,7 +40,7 @@
       "entity": "Item",
       "system": "dnd5e"
     }
-  ].
+  ]
   "minimumCoreVersion": "0.9.0",
   "url": 
   "manifest":

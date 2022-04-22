@@ -1,0 +1,48 @@
+{ 
+  "name": "wc5e", 
+  "title": "WC5e Foundry Module", 
+  "description": "A Foundry Module for the official WC5e material!", 
+  "author": "OmNomDom308",
+  "version": 0.1.0, 
+  "esmodules": [
+    "scripts/wc5e.js"
+  ].
+  "styles": [
+    "styles/wc5e.css
+  ]. 
+  "dependencies": [
+    { 
+      "name": "dnd5e",
+      "type": "system
+    }
+  ]. 
+  "languages": [ 
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json
+    }.
+  ].
+  "packs': [
+    {
+      "name": "classes",
+      "label": "Classes, 
+      "path": "./packs/classes.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e"
+    }.
+        {
+      "name": "races",
+      "label": "Races, 
+      "path": "./packs/races.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e"
+    }
+  ].
+  "minimumCoreVersion". "0.9.0",
+  "url": 
+  "manifest":
+  "download": 
+}

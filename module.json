@@ -23,7 +23,7 @@
       "path": "lang/en.json"
     }.
   ].
-  "packs': [
+  "packs": [
     {
       "name": "classes",
       "label": "Classes", 
